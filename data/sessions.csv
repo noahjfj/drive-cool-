@@ -1,0 +1,8 @@
+type,bureau,debut,fin,horaire,statut,remarque
+theorie,Wanze,22/09/2026,25/09/2026,17h à 20h,complet,
+theorie,Andenne,12/10/2026,15/10/2026,17h à 20h,,
+theorie,Wanze,20/10/2026,23/10/2026,17h à 20h,,Congés scolaires
+theorie,Wanze,17/11/2026,20/11/2026,17h à 20h,,
+theorie,Andenne,23/11/2026,26/11/2026,17h à 20h,,
+theorie,Andenne,07/12/2026,10/12/2026,17h à 20h,,
+perception,Wanze,04/10/2026,,10h à 13h,,

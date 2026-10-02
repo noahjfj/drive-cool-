@@ -13,20 +13,21 @@
 </head>
 <body>
 
-  <!-- ===== En-tête ===== -->
   <header class="header" id="top">
     <div class="container header__inner">
-      <a href="#top" class="header__logo" aria-label="Drive Cool – accueil">
+      <a href="index.html" class="header__logo" aria-label="Drive Cool – accueil">
         <img src="assets/logo.jpg" alt="Drive Cool" width="1774" height="704">
       </a>
       <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
         <span></span><span></span><span></span>
       </button>
       <nav class="nav" id="nav">
-        <a href="#qui-sommes-nous">Qui sommes-nous</a>
-        <a href="#bureaux">Nos bureaux</a>
-        <a href="#horaires">Horaires</a>
-        <a href="#contact" class="nav__cta">Nous contacter</a>
+        <a href="index.html#qui-sommes-nous">Qui sommes-nous</a>
+        <a href="cours-theoriques.html">Cours théoriques</a>
+        <a href="perception-des-risques.html">Perception des risques</a>
+        <a href="cours-pratiques.html">Cours pratiques</a>
+        <a href="examen-pratique.html">Examen pratique</a>
+        <a href="index.html#contact" class="nav__cta">Contact</a>
       </nav>
     </div>
   </header>
@@ -42,8 +43,8 @@
         </h1>
         <p class="hero__lead">Cours théoriques et pratiques à Andenne et Wanze, avec une équipe proche de ses élèves.</p>
         <div class="hero__actions">
-          <a href="tel:+32488813813" class="btn btn--green">📞 0488 813 813</a>
-          <a href="#bureaux" class="btn btn--outline">Trouver un bureau</a>
+          <a href="tel:+32488813813" class="btn btn--green">0488 813 813</a>
+          <a href="#parcours" class="btn btn--outline">Votre parcours</a>
         </div>
       </div>
       <!-- route animée -->
@@ -51,6 +52,51 @@
         <div class="road__lane"></div>
         <div class="road__car road__car--1"></div>
         <div class="road__car road__car--2"></div>
+      </div>
+    </section>
+
+    <!-- ===== Parcours ===== -->
+    <section class="section" id="parcours">
+      <div class="container">
+        <h2 class="section-title"><span class="diamond" aria-hidden="true"></span> Votre route vers le permis B</h2>
+        <p class="section-sub">Quatre étapes, et nous vous accompagnons à chacune d'elles.</p>
+        <ol class="journey">
+          <li class="journey__step">
+            <div class="journey__marker"><span class="journey__num">1</span></div>
+            <h3 class="journey__title">Théorie</h3>
+            <p class="journey__text">Dès 17 ans. 12 heures de cours, puis l'examen&nbsp;: 41 points sur 50.</p>
+            <a class="link-arrow journey__link" href="cours-theoriques.html">Cours théoriques →</a>
+          </li>
+          <li class="journey__step">
+            <div class="journey__marker"><span class="journey__num">2</span></div>
+            <h3 class="journey__title">Perception des risques</h3>
+            <p class="journey__text">Une formation de 3 heures, obligatoire avant l'examen pratique.</p>
+            <a class="link-arrow journey__link" href="perception-des-risques.html">Perception des risques →</a>
+          </li>
+          <li class="journey__step">
+            <div class="journey__marker"><span class="journey__num">3</span></div>
+            <h3 class="journey__title">Cours pratiques</h3>
+            <p class="journey__text">En boîte manuelle ou automatique, à la carte ou en formule 20 h ou 30 h.</p>
+            <a class="link-arrow journey__link" href="cours-pratiques.html">Cours pratiques →</a>
+          </li>
+          <li class="journey__step">
+            <div class="journey__marker"><span class="journey__num">4</span></div>
+            <h3 class="journey__title">Examen pratique</h3>
+            <p class="journey__text">Dès 18 ans, avec l'auto-école ou en filière libre.</p>
+            <a class="link-arrow journey__link" href="examen-pratique.html">Examen pratique →</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Prochaines sessions ===== -->
+    <section class="section section--alt" id="prochaines-sessions">
+      <div class="container">
+        <h2 class="section-title"><span class="diamond" aria-hidden="true"></span> Prochaines sessions de théorie</h2>
+        <div class="sessions sessions--compact" data-sessions="theorie" data-layout="compact" data-limit="3">
+          <p class="sessions__loading">Chargement des dates…</p>
+        </div>
+        <p class="table-note"><a class="link-arrow" href="cours-theoriques.html#sessions">Toutes les sessions et l'inscription →</a></p>
       </div>
     </section>
 
@@ -68,7 +114,7 @@
           <ul class="stats">
             <li class="stat"><span class="stat__value">1996</span><span class="stat__label">Année de création</span></li>
             <li class="stat"><span class="stat__value">2</span><span class="stat__label">Bureaux : Andenne &amp; Wanze</span></li>
-            <li class="stat"><span class="stat__value">🚆 🚌</span><span class="stat__label">Accessibles en train et en bus</span></li>
+            <li class="stat"><span class="stat__value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="13" rx="3"/><path d="M5 10h14M9 20l-2 2M15 20l2 2M8 16l-1 4h10l-1-4"/><circle cx="9" cy="13" r=".5"/><circle cx="15" cy="13" r=".5"/></svg></span><span class="stat__label">Accessibles en train et en bus</span></li>
           </ul>
         </div>
       </div>
@@ -142,6 +188,35 @@
       </div>
     </section>
 
+    <!-- ===== Questions fréquentes ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <h2 class="section-title"><span class="diamond" aria-hidden="true"></span> Questions fréquentes</h2>
+        <div class="faq">
+          <details>
+            <summary>À partir de quel âge puis-je commencer&nbsp;?</summary>
+            <p>Dès 17 ans pour l'examen théorique, et à 18 ans accomplis pour l'examen pratique.</p>
+          </details>
+          <details>
+            <summary>Boîte manuelle ou automatique&nbsp;?</summary>
+            <p>Les deux sont possibles. L'heure de cours coûte 70 € en manuelle et 72 € en automatique. Voir les <a href="cours-pratiques.html">tarifs des cours pratiques</a>.</p>
+          </details>
+          <details>
+            <summary>J'ai raté l'examen théorique deux fois. Que faire&nbsp;?</summary>
+            <p>Il faut alors suivre 12 heures de formation dans une auto-école agréée. C'est exactement notre semaine de cours théoriques (120 €).</p>
+          </details>
+          <details>
+            <summary>Je suis en filière libre. Puis-je passer l'examen avec vous&nbsp;?</summary>
+            <p>Oui, à condition d'avoir suivi au moins 4 heures de conduite chez nous et d'avoir vos documents en ordre. Tout est expliqué sur la page <a href="examen-pratique.html">examen pratique</a>.</p>
+          </details>
+          <details>
+            <summary>Comment payer&nbsp;?</summary>
+            <p>Par virement sur le compte BE69 0689 0830 3478, en indiquant votre nom et la formation en communication.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== Contact ===== -->
     <section class="section" id="contact">
       <div class="container">
@@ -149,12 +224,12 @@
         <div class="contact">
           <div class="contact__cards">
             <a class="contact-card" href="tel:+32488813813">
-              <span class="contact-card__icon" aria-hidden="true">📞</span>
+              <span class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
               <span class="contact-card__label">Téléphone</span>
               <span class="contact-card__value">0488 813 813</span>
             </a>
             <a class="contact-card" href="mailto:info@drivecool.be">
-              <span class="contact-card__icon" aria-hidden="true">✉️</span>
+              <span class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
               <span class="contact-card__label">E-mail</span>
               <span class="contact-card__value">info@drivecool.be</span>
             </a>
@@ -184,7 +259,6 @@
     </section>
   </main>
 
-  <!-- ===== Pied de page ===== -->
   <footer class="footer asphalt">
     <div class="container footer__inner">
       <div>
@@ -192,17 +266,32 @@
         <p>Apprendre à bien conduire, sans stress.</p>
       </div>
       <div>
-        <p><strong>Andenne</strong> – Rue du Pont 23</p>
-        <p><strong>Wanze</strong> – Rue Arthur Galand 11A</p>
+        <p class="footer__title">Formations</p>
+        <ul class="footer__nav">
+          <li><a href="cours-theoriques.html">Cours théoriques</a></li>
+          <li><a href="perception-des-risques.html">Perception des risques</a></li>
+          <li><a href="cours-pratiques.html">Cours pratiques</a></li>
+          <li><a href="examen-pratique.html">Examen pratique</a></li>
+        </ul>
       </div>
       <div>
+        <p class="footer__title">Bureaux</p>
+        <p><strong>Andenne</strong><br>Rue du Pont 23, 5300 Andenne</p>
+        <p><strong>Wanze</strong><br>Rue Arthur Galand 11A, 4520 Wanze</p>
+      </div>
+      <div>
+        <p class="footer__title">Contact</p>
         <p><a href="tel:+32488813813">0488 813 813</a></p>
         <p><a href="mailto:info@drivecool.be">info@drivecool.be</a></p>
+        <p>IBAN BE69 0689 0830 3478</p>
       </div>
     </div>
-    <p class="footer__copy">© <span id="year"></span> Auto-école Drive Cool</p>
+    <p class="footer__copy">© <span class="js-year">2026</span> Auto-école Drive Cool</p>
   </footer>
 
+  <a class="call-fab" href="tel:+32488813813" aria-label="Appeler Drive Cool"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>
+
+  <script src="js/config.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
